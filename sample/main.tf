@@ -7,6 +7,5 @@ resource "random_string" "helloman" {
 
 
 locals {
-  environment_local = "helloworld"
-
+  environment_local = "${var.app_name}-${var.environment_name}"
 }
