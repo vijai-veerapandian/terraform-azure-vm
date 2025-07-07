@@ -7,8 +7,19 @@ brew install hashicorp/tap/terraform
 ### Terraform Azure VM 
 
 
-### Install azure cli
+### Playing with Terraform locally
 
 ```
-brew install azure-cli 
+terraform init
+terraform plan -var-file=./env/prod.tfvars
+terraform apply -var-file=./env/prod.tfvars
 ```
+### Terraform Workspace
+
+```
+terraform workspace list
+terraform workspace new dev
+terraform workspace select dev
+terraform workspace select default
+```
+
