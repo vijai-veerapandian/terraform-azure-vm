@@ -1,6 +1,6 @@
 
 environment_name = "dev"
-app_name         = "mwyweather"
+app_name         = "myweather"
 enabled          = false
 api_key          = "adada"
 regions          = ["westus", "eastus", "westus"]

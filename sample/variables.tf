@@ -1,13 +1,8 @@
-// Application Name
-# Application NAme
-/* Application name
-*/
-
 variable "app_name" {
   type = string
 
   validation {
-    condition     = length(var.app_name) <= 12
+    condition     = length(var.app_name) < 12
     error_message = "app name should be equal or less then 12 characters"
   }
 
