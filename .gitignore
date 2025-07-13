@@ -22,6 +22,7 @@ rad.json
 TestResults.xml
 
 #Terraform 
+.terraform.local.hcl
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
